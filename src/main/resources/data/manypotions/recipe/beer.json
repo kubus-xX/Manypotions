@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:nether_wart"
+    },
+    {
+      "item": "manypotions:yeast"
+    },
+    {
+      "item": "manypotions:beer_glass"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:beer"
+  }
+}

@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"package": "net.kubus_xX.manypotions.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+	],
+	"client": [
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
