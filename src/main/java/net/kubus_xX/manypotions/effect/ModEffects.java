@@ -27,10 +27,6 @@ public class ModEffects {
             new ExtinguishEffect(StatusEffectCategory.NEUTRAL,0x1373e8)
                     .addAttributeModifier(EntityAttributes.GENERIC_MOVEMENT_SPEED,
                             Identifier.of(AlcoholMod.MOD_ID, "extinguish"), -0f, EntityAttributeModifier.Operation.ADD_MULTIPLIED_TOTAL));
-    public static final RegistryEntry<StatusEffect> FIREFLY = registerStatusEffect("firefly",
-            new FireflyEffect(StatusEffectCategory.NEUTRAL,0x1373e8)
-                    .addAttributeModifier(EntityAttributes.GENERIC_MOVEMENT_SPEED,
-                            Identifier.of(AlcoholMod.MOD_ID, "firefly"), -0f, EntityAttributeModifier.Operation.ADD_MULTIPLIED_TOTAL));
     public static final RegistryEntry<StatusEffect> WITHER = registerStatusEffect("firefly",
             new WitherEffect(StatusEffectCategory.NEUTRAL,0x080a09)
                     .addAttributeModifier(EntityAttributes.GENERIC_MOVEMENT_SPEED,

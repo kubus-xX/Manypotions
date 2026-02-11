@@ -3,10 +3,8 @@ package net.kubus_xX.manypotions;
 import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.registry.FabricBrewingRecipeRegistryBuilder;
-import net.kubus_xX.manypotions.block.ModBlocks;
-import net.kubus_xX.manypotions.effect.ModEffects;
-import net.kubus_xX.manypotions.item.ModItemGroups;
 import net.kubus_xX.manypotions.item.ModItems;
+import net.kubus_xX.manypotions.effect.ModEffects;
 import net.kubus_xX.manypotions.potion.ModPotions;
 import net.minecraft.item.Items;
 import net.minecraft.potion.Potions;
@@ -20,10 +18,7 @@ public class AlcoholMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		ModItemGroups.registerItemGroups();
 
-		ModItems.registerModItems();
-		ModBlocks.registerModBlocks();
 
 		ModEffects.registerEffects();
 		ModPotions.registerPotions();
