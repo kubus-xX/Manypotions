@@ -31,6 +31,10 @@ public class ModEffects {
             new WitherEffect(StatusEffectCategory.NEUTRAL,0x080a09)
                     .addAttributeModifier(EntityAttributes.GENERIC_MOVEMENT_SPEED,
                             Identifier.of(AlcoholMod.MOD_ID, "wither"), -0f, EntityAttributeModifier.Operation.ADD_MULTIPLIED_TOTAL));
+    public static final RegistryEntry<StatusEffect> IRON_EFFICIENT = registerStatusEffect("iron_efficient",
+            new IronEffect(StatusEffectCategory.NEUTRAL,0xC2E5E5)
+                    .addAttributeModifier(EntityAttributes.GENERIC_MOVEMENT_SPEED,
+                            Identifier.of(AlcoholMod.MOD_ID, "iron_efficient"), -0f, EntityAttributeModifier.Operation.ADD_MULTIPLIED_TOTAL));
 
 
 

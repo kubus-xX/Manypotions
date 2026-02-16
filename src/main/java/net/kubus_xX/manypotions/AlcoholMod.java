@@ -48,12 +48,6 @@ public class AlcoholMod implements ModInitializer {
 			builder.registerPotionRecipe(Potions.AWKWARD, Items.MILK_BUCKET, ModPotions.MILK_POTION);
 		});
 		FabricBrewingRecipeRegistryBuilder.BUILD.register(builder -> {
-			builder.registerPotionRecipe(Potions.AWKWARD, Items.PUFFERFISH, ModPotions.BLINDNESS_POTION);
-		});
-		FabricBrewingRecipeRegistryBuilder.BUILD.register(builder -> {
-			builder.registerPotionRecipe(ModPotions.BLINDNESS_POTION, Items.GLOWSTONE, ModPotions.BLINDNESS_POTION_LONG);
-		});
-		FabricBrewingRecipeRegistryBuilder.BUILD.register(builder -> {
 			builder.registerPotionRecipe(Potions.AWKWARD, Items.WATER_BUCKET, ModPotions.WATER_POTION);
 		});
 		FabricBrewingRecipeRegistryBuilder.BUILD.register(builder -> {

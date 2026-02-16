@@ -21,7 +21,7 @@ public class ModPotions {
             new Potion(new StatusEffectInstance(StatusEffects.LUCK,2400, 1)));
 
     public static final RegistryEntry<Potion> SPEED_POTION_3 = registerPotion("speed_potion_3",
-            new Potion(new StatusEffectInstance(StatusEffects.SPEED,2400, 1)));
+            new Potion(new StatusEffectInstance(StatusEffects.SPEED,2400, 2)));
 
     public static final RegistryEntry<Potion> GLOWING_POTION = registerPotion("glowing_potion",
             new Potion(new StatusEffectInstance(StatusEffects.GLOWING,12000, 0)));
@@ -31,12 +31,6 @@ public class ModPotions {
 
     public static final RegistryEntry<Potion> MILK_POTION = registerPotion("milk_potion",
             new Potion(new StatusEffectInstance(ModEffects.CLEAR,30, 0)));
-
-    public static final RegistryEntry<Potion> BLINDNESS_POTION = registerPotion("blindness_potion",
-            new Potion(new StatusEffectInstance(StatusEffects.BLINDNESS,3600, 0)));
-
-    public static final RegistryEntry<Potion> BLINDNESS_POTION_LONG = registerPotion("blindness_potion_long",
-            new Potion(new StatusEffectInstance(StatusEffects.BLINDNESS,6000, 0)));
 
     public static final RegistryEntry<Potion> WATER_POTION = registerPotion("water_potion",
             new Potion(new StatusEffectInstance(ModEffects.EXTINGUISH,3600, 0)));
